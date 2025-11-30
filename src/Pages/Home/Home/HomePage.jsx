@@ -1,10 +1,12 @@
 import React from "react";
 import Banner from "../Banner/Banner";
+import HowItWorks from "../HowItWorks.jsx/HowItWorks";
 
 const HomePage = () => {
   return (
-    <div >
+    <div>
       <Banner />
+      <HowItWorks />
     </div>
   );
 };
