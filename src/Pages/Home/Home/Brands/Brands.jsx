@@ -23,7 +23,8 @@ const brandLogos = [
 
 const Brands = () => {
   return (
-    <div className="py-20 space-y-10">
+    <div>
+      <div className="py-20 space-y-10">
       <h1 className="text-secondary text-2xl lg:text-3xl font-bold  text-center">
         We've helped thousands of sales teams
       </h1>
@@ -47,6 +48,12 @@ const Brands = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+    </div>
+
+    <div>
+      {/* Block-1 */}
+      <div></div>
+    </div>
     </div>
   );
 };
