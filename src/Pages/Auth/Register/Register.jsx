@@ -25,7 +25,7 @@ const Register = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit(handleRegistration)}>
+      <form className="card-body" onSubmit={handleSubmit(handleRegistration)}>
         <fieldset className="fieldset">
           {/* Email */}
           <label className="label">Email</label>
